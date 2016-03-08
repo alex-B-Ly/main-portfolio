@@ -8,6 +8,9 @@ var app = express();
 app.engine('handlebars', handle({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
+// MIDDLEWARE - STATIC
+app.use('/static', express.static('public'));
+
 // ROUTES
 var routes = require('./controllers/router.js');
 app.use('/', routes);
