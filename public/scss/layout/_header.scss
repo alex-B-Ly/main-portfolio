@@ -1,0 +1,10 @@
+header{
+  color: $text-color;
+  height: 400px;
+}
+
+.vert-align{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -2,6 +2,7 @@
   Alex Ly
 */
 /* BASE files */
+/* MIXINS */
 body {
   background: #241E4E; }
 
@@ -19,6 +20,20 @@ h3 {
 .skill-col {
   margin-top: 30px; }
 
+.intro-sec,
+.skills-sec,
+.portfolio-sec {
+  padding-bottom: 25px;
+  border-bottom: 2px solid #FFD046; }
+
 /* LAYOUT files */
+header {
+  color: #FBFBFF;
+  height: 400px; }
+
+.vert-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
 
 /*# sourceMappingURL=style.css.map */
