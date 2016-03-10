@@ -1,8 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
+// ROUTE OBJECTS
+var homeObject = require('../models/route_objects/home.js');
+
+// GET ROUTES
 router.get('/', function(req, res){
-  res.render('home', {title: "Alex Ly - Web Developer", css_filepath: "/static/css/style.css"});
+  res.render('home', homeObject);
 });
 
 module.exports = router;
