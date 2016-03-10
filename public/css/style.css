@@ -5,13 +5,19 @@
 body {
   background: #241E4E; }
 
+h2 {
+  color: #FBFBFF; }
+
+h3 {
+  color: #FFD046; }
+
 /* MODULES files */
 .skills {
-  font-size: 6em;
+  font-size: 6.25em;
   color: #FFD046; }
 
 .skill-col {
-  margin-top: 17px; }
+  margin-top: 30px; }
 
 /* LAYOUT files */
 
