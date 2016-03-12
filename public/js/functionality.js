@@ -13,6 +13,16 @@ $(document).ready(function() {
     });
   }
 
+  function scrollTest(){
+    var controller = new ScrollMagic.Controller();
+    var scene = new ScrollMagic.Scene({
+      offset: 200
+    })
+    .setClassToggle('.intro', 'greenify').
+    addTo(controller);
+  }
+
   // FUNCTIONS CALLED
   colorizeMe();
+  scrollTest();
 });

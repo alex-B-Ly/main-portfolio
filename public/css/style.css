@@ -12,6 +12,10 @@ h2 {
 h3 {
   color: #FFD046; }
 
+/* ANIMATIONS */
+.greenify {
+  color: green; }
+
 /* MODULES files */
 .intro-sec {
   color: #FBFBFF; }
