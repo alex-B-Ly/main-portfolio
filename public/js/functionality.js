@@ -16,9 +16,9 @@ $(document).ready(function() {
   function scrollTest(){
     var controller = new ScrollMagic.Controller();
     var scene = new ScrollMagic.Scene({
-      offset: 200
+      offset:500
     })
-    .setClassToggle('.intro', 'greenify').
+    .setClassToggle('.front-skills', 'zoomer').
     addTo(controller);
   }
 

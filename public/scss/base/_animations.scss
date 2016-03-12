@@ -1,5 +1,21 @@
 /* ANIMATIONS */
 
-.greenify{
-  color: green;
+@-webkit-keyframes zoom{
+  10%{text-shadow: 0 0 5px $tertiary-color}
+  20%{text-shadow: 0 0 25px $tertiary-color}
+  40%{text-shadow: 0 0 5px $tertiary-color}
+  60%{text-shadow: 0 0 45px $tertiary-color}
+  70%{text-shadow: 0 0 15px $tertiary-color}
+  90%{text-shadow: 0 0 5px $tertiary-color}
+  100%{text-shadow: none}
+}
+
+@keyframes zoom{
+  10%{text-shadow: 0 0 5px $tertiary-color}
+  20%{text-shadow: 0 0 25px $tertiary-color}
+  40%{text-shadow: 0 0 5px $tertiary-color}
+  60%{text-shadow: 0 0 45px $tertiary-color}
+  70%{text-shadow: 0 0 15px $tertiary-color}
+  90%{text-shadow: 0 0 5px $tertiary-color}
+  100%{text-shadow: none}
 }
