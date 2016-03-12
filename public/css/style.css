@@ -29,6 +29,13 @@ h3 {
   padding-bottom: 25px;
   border-bottom: 2px solid #FFD046; }
 
+.contact-sec {
+  color: #FBFBFF; }
+
+#location-map {
+  width: 90%;
+  height: 300px; }
+
 /* LAYOUT files */
 header {
   color: #FBFBFF;

@@ -21,3 +21,13 @@
     padding-bottom: 25px;
     @include solid-border('bottom', 2px, $tertiary-color);
   }
+
+  // CONTACT
+  .contact-sec{
+    color: $text-color;
+  }
+
+  #location-map{
+    width: 90%;
+    height: 300px;
+  }
